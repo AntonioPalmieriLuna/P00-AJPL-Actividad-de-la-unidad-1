@@ -29,22 +29,22 @@ public class Lampara {
         Lampara lampara1=new Lampara();
         lampara1.mostrarEstado();
 
-        System.out.println("encendido");
+        System.out.println("Prueba de encendido");
         lampara1.encender();
         lampara1.mostrarEstado();
 
-        System.out.println("apagado");
+        System.out.println("Prueba de apagado");
         lampara1.apagar();
         lampara1.mostrarEstado();
 
         Lampara lampara2=new Lampara("Samsung");
         lampara2.mostrarEstado();
 
-        System.out.println("encendido");
+        System.out.println("Prueba de encendido");
         lampara2.encender();
         lampara2.mostrarEstado();
 
-        System.out.println("apagado");
+        System.out.println("Prueba de apagado");
         lampara2.apagar();
         lampara2.mostrarEstado();
     }
