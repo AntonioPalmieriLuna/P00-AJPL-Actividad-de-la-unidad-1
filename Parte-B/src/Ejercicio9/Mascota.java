@@ -7,7 +7,7 @@ public class Mascota {
     public Mascota(String nombre, String especie, int edad){
         this.nombre=nombre;
         this.especie=especie;
-        this.edad=edad;
+        setEdad(edad);
     }
 
     public void setEdad(int edad){
