@@ -12,7 +12,7 @@ public class Mascota {
     }
 
     public void cumplirAnios(int anios){
-        this.edad=edad+anios;
+        edad=edad+anios;
     }
     public void mostrarMascota(){
         System.out.println("Nombre: "+nombre+"\n" +
