@@ -21,8 +21,7 @@ public class Estudiante {
 
     // Constructor con nombre, código y semestre
     public Estudiante(String nombre, Long codigo, int semestre){
-        this.nombre=nombre;
-        this.codigo=codigo;
+        this(nombre,codigo);
         this.semestre=semestre;
     }
 
