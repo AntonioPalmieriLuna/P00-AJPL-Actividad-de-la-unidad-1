@@ -1,6 +1,5 @@
 package Ejercicio51;
 
-import java.sql.SQLOutput;
 
 public class Rectangulo {
     private int base,altura;
